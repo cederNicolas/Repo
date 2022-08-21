@@ -197,7 +197,13 @@ section p {
 .tarjetas img {
   width: 20rem;
   border-radius: 3px;
+  transition: height 0.2s, width 0.2s;
 }
+.tarjetas img:hover {
+  height: 300px;
+  width: 300px;
+}
+
 
 .gridPadre {
   display: grid;
