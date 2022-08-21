@@ -199,7 +199,7 @@ section p {
   border-radius: 3px;
   transition: height 0.2s, width 0.2s;
 }
-.tarjetas img:hover {
+ .tarjetas img:hover {
   height: 300px;
   width: 300px;
 }
