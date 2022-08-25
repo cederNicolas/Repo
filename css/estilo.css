@@ -162,10 +162,11 @@ li {
   margin: 10px;
 }
 
-  .dondeImg img {
-  display:block;
-  margin:auto;
-  height: 30rem;
+  .dondeImg {
+  display:flex;
+  justify-content: center;
+  margin-top: 2rem;
+  height: 50rem;
 } 
 
 .musculacion {
