@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+li {
+    list-style-type: none;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+  
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 2rem;
+    font-family: "Montserrat", sans-serif;
+    background-color: white;
+}
+
+@import "header";
+@import "main";
+@import "footer";
+
+.border {
+    border: #080909 solid;
+    /*margin-left: 10px;
+    margin-right: 10px;*/
+    background-color: #372b25;
+    background-image: url(/img/3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+}
+  
+.contenedorInterior {
+    background-color:#0B0A0A;
+    /*margin: 20px;*/
+    border: 2px black solid;
+    border-radius: 20px;
+    opacity: 90%;
+    
+}
+
+.gridPadre {
+    display: grid;
+    grid-template-areas: 
+    "nav nav nav nav"
+    "musculacion funcional spinning"
+    "musculacion funcional spinning"
+    "footer footer footer footer"
+    ;
+  }
+  
+  @media (min-width:700px) and (max-width:1100px)
+  {
+     .gridPadre {
+      display: grid;
+      grid-template-areas: 
+      "nav nav"
+      "musculacion"
+      "funcional spinning"
+      "footer footer"
+        ;
+      }
+    
+  
+      .form {
+        display: flex;
+        flex-direction: column;
+      }
+        .tarjetas {
+         display: flex;
+          flex-direction: column;
+        }
+  
+   section {
+     text-align: center;
+   }
+  
+   section img {
+     width: 150px;
+    }
+  }
+  
+  @media (max-width:699px)
+  {
+      .gridPadre {
+          display: grid;
+          grid-template-areas: 
+          "nav"
+          "musculacion"
+          "funcional"
+          "spinning"
+          "footer"
+          ;
+      }
+      .form {
+        display: flex;
+        flex-direction: column;
+      }
+      .tarjetas {
+        display: flex;
+        flex-direction: column;
+      }
+  
+      html {
+        font-size: 80%;
+      }
+  
+    nav {
+        position: static;
+     }
+  
+    .barra div {
+        max-width: 90%;
+    }
+  
+    section {
+        text-align: center;
+    }
+  
+    section img {
+        width: 300px;
+    }
+  }
+  

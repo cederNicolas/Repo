@@ -1,0 +1,25 @@
+.footer {
+    text-align: center;
+    font-weight: bold;
+    line-height: 1.6;
+    background-color: #372b25;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3px;
+    margin-top: 10px;
+    grid-area: footer;
+}
+  
+.underFooter {
+    font-weight: lighter;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+  
+a {
+    text-decoration: none;
+}
