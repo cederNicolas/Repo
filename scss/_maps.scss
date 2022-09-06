@@ -1,6 +1,6 @@
 $hiperV: (color: bisque, fontDense: lighter);
 
-.hiperV {
+.hiper {
     background-color: map-get($hiperV, color);
     font-weight: map-get($hiperV, fontDense);
 }

@@ -1,0 +1,10 @@
+Hola Alan, como estás?
+Cambios implementados para optimizar SEO
+
+.-Agregue meta description en todas las paginas.
+
+.-Agregue un texto alternativo que me quedaba pendiente
+
+.-Corroboré H1,h2, etc
+
+.-Corroboré los links
