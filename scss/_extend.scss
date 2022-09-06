@@ -1,0 +1,8 @@
+.propiedadUno {
+    font-size: larger;
+    color: chartreuse;
+}
+
+.propiedadDos {
+    @extend .propiedadUno
+}

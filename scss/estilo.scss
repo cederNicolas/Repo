@@ -23,16 +23,28 @@ body {
 @import "header";
 @import "main";
 @import "footer";
+@import "maps";
+@import "extend";
+
+  
+.contenedorInterior {
+    background-color:#0B0A0A;
+    /*margin: 20px;*/
+    border: 2px black solid;
+    border-radius: 20px;
+    opacity: 90%;
+    
+}
 
 .border {
-    border: #080909 solid;
-    /*margin-left: 10px;
-    margin-right: 10px;*/
-    background-color: #372b25;
-    background-image: url(/img/3.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 20px;
+  border: #080909 solid;
+  /*margin-left: 10px;
+  margin-right: 10px;*/
+  background-color: #372b25;
+  background-image: url(/img/3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
 }
   
 .contenedorInterior {
