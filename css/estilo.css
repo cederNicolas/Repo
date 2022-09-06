@@ -15,10 +15,6 @@ body {
   font-family: "Montserrat", sans-serif;
   background-color: white; }
 
-li a {
-  color: bisque;
-  font-weight: lighter; }
-
 .navBar {
   background-color: #080909;
   border: 2px black solid;
@@ -157,25 +153,10 @@ section p {
 a {
   text-decoration: none; }
 
-.hiperV {
-  background-color: bisque;
-  font-weight: lighter; }
-
-.propiedadUno, .propiedadDos {
-  font-size: larger;
-  color: chartreuse; }
-
-.contenedorInterior {
-  background-color: #0B0A0A;
-  /*margin: 20px;*/
-  border: 2px black solid;
-  border-radius: 20px;
-  opacity: 90%; }
-
 .border {
   border: #080909 solid;
   /*margin-left: 10px;
-  margin-right: 10px;*/
+    margin-right: 10px;*/
   background-color: #372b25;
   background-image: url(/img/3.jpg);
   background-repeat: no-repeat;
@@ -191,12 +172,18 @@ a {
 
 .gridPadre {
   display: grid;
-  grid-template-areas: "nav nav nav nav" "musculacion funcional spinning" "musculacion funcional spinning" "footer footer footer footer"; }
+  grid-template-areas: "nav nav nav nav"
+ "musculacion funcional spinning"
+ "musculacion funcional spinning"
+ "footer footer footer footer"; }
 
 @media (min-width: 700px) and (max-width: 1100px) {
   .gridPadre {
     display: grid;
-    grid-template-areas: "nav nav" "musculacion" "funcional spinning" "footer footer"; }
+    grid-template-areas: "nav nav"
+ "musculacion"
+ "funcional spinning"
+ "footer footer"; }
   .form {
     display: flex;
     flex-direction: column; }
@@ -211,7 +198,11 @@ a {
 @media (max-width: 699px) {
   .gridPadre {
     display: grid;
-    grid-template-areas: "nav" "musculacion" "funcional" "spinning" "footer"; }
+    grid-template-areas: "nav"
+ "musculacion"
+ "funcional"
+ "spinning"
+ "footer"; }
   .form {
     display: flex;
     flex-direction: column; }
